@@ -1,0 +1,64 @@
+@media (max-width: 1280px){
+    body{
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 768px){
+    .infos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desc{
+        width: 60%;
+        text-align: center; 
+    }
+
+    .lat-hud{
+    position: static;
+    min-height: auto;
+    width: 94%;
+    align-items: center;
+    margin-bottom: 200px;
+    }
+
+    .lat-hud ul{
+        flex-direction: row;
+        gap: 50px;
+    }
+
+}
+
+
+@media (max-width: 425px){
+    .logo{
+        max-width: 300px;
+    }
+
+    .desc{
+        width: 100%;
+    }
+
+    .lat-hud{    
+        margin-top: 50px;
+    }
+
+    .lat-hud ul{
+        flex-direction: row;
+    }
+
+    .content{
+        min-height: 70vh;
+        gap: 50px;
+    }
+
+    body{
+        padding: 40px;
+    }
+}
+
+
+
+    
